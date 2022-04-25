@@ -114,10 +114,11 @@ blockquote {
   .programming {
     width: 80%;
     padding-left: 40px;
-    margin-top: 10px;
+    // margin-top: 10px;
 
     .p-programming {
       margin-bottom: 5px;
+      margin-top: 10px;
     }
 
     .skill-container {
@@ -125,10 +126,65 @@ blockquote {
       border-radius: 20px;
       background-color: lightgray;
       height: 10px;
+      margin-bottom: 15px;
     }
 
     .python {
       width: 90%;
+      border-radius: 20px;
+      background-color: var(--global-theme-color);
+      text-align: center;
+      color: transparent;
+      height: 10px;
+    }
+
+    .java {
+      width: 65%;
+      border-radius: 20px;
+      background-color: var(--global-theme-color);
+      text-align: center;
+      color: transparent;
+      height: 10px;
+    }
+
+    .latex {
+      width: 70%;
+      border-radius: 20px;
+      background-color: var(--global-theme-color);
+      text-align: center;
+      color: transparent;
+      height: 10px;
+    }
+
+    .html-css {
+      width: 55%;
+      border-radius: 20px;
+      background-color: var(--global-theme-color);
+      text-align: center;
+      color: transparent;
+      height: 10px;
+    }
+
+    .matlab {
+      width: 55%;
+      border-radius: 20px;
+      background-color: var(--global-theme-color);
+      text-align: center;
+      color: transparent;
+      height: 10px;
+    }
+
+    .cplusplus {
+      width: 30%;
+      border-radius: 20px;
+      background-color: var(--global-theme-color);
+      text-align: center;
+      color: transparent;
+      height: 10px;
+    }
+
+    .js {
+      width: 30%;
       border-radius: 20px;
       background-color: var(--global-theme-color);
       text-align: center;
@@ -154,6 +210,12 @@ blockquote {
   .flag {
     width: 27px;
     vertical-align: text-top;
+  }
+
+  .skill-img {
+    width: 30px;
+    color: var(--global-theme-color);
+    padding-right: 10px;
   }
 
 }
@@ -184,7 +246,7 @@ blockquote {
         height: 9px;
       }
 
-      .python {
+      .python, .java, .latex, .html-css, .js, .cplusplus, .matlab {
         height: 9px;
       }
     }
