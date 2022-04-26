@@ -84,6 +84,10 @@ blockquote {
 
   }
 
+  .subtitle {
+    font-weight: 500;
+  }
+
   .links {
     a.btn {
       color: var(--global-text-color);
@@ -247,6 +251,11 @@ blockquote {
 
   .courses {
     padding-top: 10px;
+  }
+
+  .vspace {
+    padding-top: 15px;
+    // color: transparent;
   }
 
 }
