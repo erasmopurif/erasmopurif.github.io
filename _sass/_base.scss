@@ -95,6 +95,18 @@ blockquote {
     }
   }
 
+  .general-info {
+    padding-left: 40px;
+    margin-top: 10px;
+
+    .info {
+      font-weight: bolder;
+      display: inline-block;
+      width: 120px;
+      text-align: left;
+    }
+  }
+
   .language {
     width: 40%;
     padding-left: 40px;
@@ -114,7 +126,6 @@ blockquote {
   .programming {
     width: 80%;
     padding-left: 40px;
-    // margin-top: 10px;
 
     .p-programming {
       margin-bottom: 5px;
@@ -202,7 +213,7 @@ blockquote {
     padding-left: 7px;
   }
 
-  .skill-icon {
+  .skill-icon, .info-icon {
     color: var(--global-theme-color);
     padding-right: 10px;
   }
@@ -223,6 +234,19 @@ blockquote {
 @media screen and (max-width: 639px) {
 
   .card {
+
+    .general-info {
+      padding-left: 3px;
+
+      .info {
+        display: inline-block;
+        width: 100px;
+      }
+    }
+
+    .info-icon {
+      padding-right: 5px;
+    }
     
     .skill {
       width: 100%;
