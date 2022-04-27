@@ -1,72 +1,95 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@inproceedings{purificato2022apexui,
+  title={First Workshop on Adaptive and Personalized Explainable User Interfaces (APEx-UI 2022)},
+  author={Purificato, Erasmo and Musto, Cataldo and Lops, Pasquale and De Luca, Ernesto William},
+  abstract={Adaptation and personalization are crucial aspects of the design and development of successful Artificial Intelligence systems, from search engines and recommender systems to wearable devices. The increased desire for customization inevitably leads to the need for the end-user to understand the rationale behind displaying that specific tailored content. User interfaces play a central role to provide the right explanations to the end-users. While adaptive and personalized user interfaces are well-known and advanced research fields, a common issue we face in terms of explainability is finding intelligent user interfaces following the one-fits-all paradigm without considering the different peculiarities of individuals. The 1st Workshop on Adaptive and Personalized Explainable User Interfaces (APEx-UI 2022) aims to foster a cross-disciplinary and interdisciplinary discussion between experts from different fields (e.g. computer science, psychology, sociology, law, medicine, business, etc.) in order to answer a precise research question: How can we adapt and personalize explainable user interfaces to the needs, demands and requirements of different end-users, considering their distinct knowledge, background and expertise?},
+  booktitle={Proceedings of the 27th International Conference on Intelligent User Interfaces,},
+  abbr={IUI},
+  pages={1--3},
+  year={2022},
+  publisher={Association for Computing Machinery},
+  doi={10.1145/3490100.3511168},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+  url={https://dl.acm.org/doi/abs/10.1145/3490100.3511168},
+  pdf={publications/2022_IUI.pdf}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{purificato2021evaluating,
+  title={Evaluating Explainable Interfaces for a Knowledge Graph-Based Recommender System},
+  author={Purificato, Erasmo and Manikandan, Baalakrishnan Aiyer and Karanam, Prasanth Vaidya and Pattadkal, Mahantesh Vishvanath and De Luca, Ernesto William},
+  abstract={In this paper, we present the design and the implementation of a knowledge graph-based recommender system for research paper suggestion, along with two explainable interfaces which provide different types of explanations to the users interacting with the recommender. Our work, developed within the academic context of the Georg Eckert Institute for International Textbook Research, aims to assess the effectiveness of the explanation among the researchers of the institute and understand which characteristics of the interfaces themselves are perceived to be as most interpretable, leading to increase the trust and confidence in the recommender system and its credibility. We evaluated our work through a user study performed among different experts covering several research fields. All participants were asked to take part in an online survey, and a focus group answered some targeted interviews. This last qualitative evaluation aims better to understand the interaction patterns within the two explainable interfaces. The results show the greater effectiveness of the interface providing the explanation through a natural language sentence and displaying the graph path from the user to the recommended paper.},
+  booktitle={Proceedings of the 8th Joint Workshop on Interfaces and Human Decision Making for Recommender Systems co-located with 15th ACM Conference on Recommender Systems (RecSys 2021),},
+  abbr={IntRS},
+  pages={73--88},
+  year={2021},
+  organization={CEUR},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  url={http://ceur-ws.org/Vol-2948/paper5.pdf},
+  pdf={publications/2021_IntRS.pdf}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@article{purificato2021dynamic,
+  title={Dynamic Privacy-Preserving Recommendations on Academic Graph Data},
+  author={Purificato, Erasmo and Wehnert, Sabine and De Luca, Ernesto William},
+  abstract={In the age of digital information, where the internet and social networks, as well as personalised systems, have become an integral part of everyone's life, it is often challenging to be aware of the amount of data produced daily and, unfortunately, of the potential risks caused by the indiscriminate sharing of personal data. Recently, attention to privacy has grown thanks to the introduction of specific regulations such as the European GDPR. In some fields, including recommender systems, this has inevitably led to a decrease in the amount of usable data, and, occasionally, to significant degradation in performance mainly due to information no longer being attributable to specific individuals. In this article, we present a dynamic privacy-preserving approach for recommendations in an academic context. We aim to implement a personalised system capable of protecting personal data while at the same time allowing sensible and meaningful use of the available data. The proposed approach introduces several pseudonymisation procedures based on the design goals described by the European Union Agency for Cybersecurity in their guidelines, in order to dynamically transform entities (e.g., persons) and attributes (e.g., authored papers and research interests) in such a way that any user processing the data are not able to identify individuals. We present a case study using data from researchers of the Georg Eckert Institute for International Textbook Research (Brunswick, Germany). Building a knowledge graph and exploiting a Neo4j database for data management, we first generate several pseudoN-graphs, being graphs with different rates of pseudonymised persons. Then, we evaluate our approach by leveraging the graph embedding algorithm node2vec to produce recommendations through node relatedness. The recommendations provided by the graphs in different privacy-preserving scenarios are compared with those provided by the fully non-pseudonymised graph, considered as the baseline of our evaluation. The experimental results show that, despite the structural modifications to the knowledge graph structure due to the de-identification processes, applying the approach proposed in this article allows for preserving significant performance values in terms of precision.},
+  journal={Computers,},
+  abbr={Computers},
+  volume={10},
+  number={9},
+  pages={107},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute},
+  doi={10.3390/computers10090107},
+  bibtex_show={true},
+  url={https://www.mdpi.com/2073-431X/10/9/107},
+  pdf={publications/2021_Computers.pdf}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{fallucchi2021enriching,
+  title={Enriching videos with automatic place recognition in Google Maps},
+  author={Fallucchi, Francesca and Di Stabile, Rosario and Purificato, Erasmo and Giuliano, Romeo and De Luca, Ernesto William},
+  abstract={The availability of videos has grown rapidly in recent years. Finding and browsing relevant information to be automatically extracted from videos is not an easy task, but today it is an indispensable feature due to the immense number of digital products available. In this paper, we present a system which provides a process to automatically extract information from videos. We describe a system solution that uses a re-trained OpenNLP model to locate all the places and famous people included in a specific video. The system obtains information from the Google Knowledge Graph related to relevant named entities such as places or famous people. In this paper we will also present the Automatic Georeferencing Video (AGV) system developed by RAI (Radiotelevisione italiana, which is the national public broadcasting company of Italy, owned by the Ministry of Economy and Finance) Teche for the European Project “La Città Educante” (The Educating City: teaching and learning processes in cross-media ecosystem) Our system contributes to The Educating City project by providing the technological environment to create statistical models for automatic named entity recognition (NER), and has been implemented in the field of education, in Italian initially. The system has been applied to the learning challenges facing the world of educational media and has demonstrated how beneficial combining topical news content with scientific content can be in education.},
+  journal={Multimedia Tools and Applications,},
+  abbr={MTAP},
+  pages={1--17},
+  year={2021},
+  publisher={Springer},
+  doi={10.1007/s11042-021-11253-9},
+  bibtex_show={true},
+  url={https://link.springer.com/article/10.1007/s11042-021-11253-9},
+  pdf={publications/2021_MTAP.pdf}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{purificato2018multimodal,
+  title={A multimodal approach for cultural heritage information retrieval},
+  author={Purificato, Erasmo and Rinaldi, Antonio Maria},
+  abstract={The daily use of mobile devices and the expansion of the world-wide-web lead multimedia information to an uncontrolled growth. In this context, the use of smart interfaces and the combination of different features in the information retrieval process are crucial aspects. In particular, for a cultural heritage application it is important to consider that a digitized artwork is only a representation of a real object, represented under specific conditions (camera position, brightness, etc.). These issues could be causes of alterations during the features extraction task. In this paper we propose a multimodal approach for cultural heritage information retrieval combining geographic and visual data. Our approach has been implemented in a mobile system based on open source technologies. It is composed of three main parts related to image matching functionalities, Geographic Information Retrieval task, and a combination strategy for multimedia and geographic data integration. An Android application has been developed to give a user friendly interface and a case study together with some experimental results are presented to show the effectiveness of our approach for the user satisfaction.},
+  booktitle={International Conference on Computational Science and its Applications,},
+  abbr={ICCSA},
+  pages={214--230},
+  year={2018},
+  organization={Springer},
+  doi={10.1007/978-3-319-95162-1_15},
+  bibtex_show={true},
+  url={https://link.springer.com/chapter/10.1007/978-3-319-95162-1_15},
+  pdf={publications/2018_ICCSA.pdf}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@article{purificato2018multimedia,
+  title={Multimedia and geographic data integration for cultural heritage information retrieval},
+  author={Purificato, Erasmo and Rinaldi, Antonio Maria},
+  journal={Multimedia Tools and Applications,},
+  abbr={MTAP},
+  abstract={In this paper a system providing an efficient integration between Content-Based Image Retrieval (CBIR) and Geographic Information Retrieval (GIR) is presented. Over the years, many CBIR systems have been proposed to give a solution for an efficient use of multimedia/visual contents and other issues as performance, quality of retrieval, data heterogeneity, and multimodal information integration. The aim of the proposed approach is to prove that the use of geographic data can improve the results obtained by an image matching system based only on visual data. Our framework is composed of three parts, each of them described in detail in this paper: the first part is dedicated to CBIR, with an experimental comparison of a large number of different multimedia features to choose the one to use in the system implementation; in the second part the methodology to integrate geographic and multimedia data is showed; in the last part is presented a GIR system implementation using a “points of interest” search. An Android application has been developed for the client-side using Apache Solr as server side provider for the information retrieval functionalities. An experimental evaluation is carried out to demonstrate the effective improvement given by the combination of geographic and multimedia data. Our results have been obtained using a real dataset composed of artworks located in Naples's museums.},
+  volume={77},
+  number={20},
+  pages={27447--27469},
+  year={2018},
+  publisher={Springer},
+  doi={10.1007/s11042-018-5931-7},
+  bibtex_show={true},
+  url={https://dl.acm.org/doi/10.1007/s11042-018-5931-7},
+  pdf={publications/2018_MTAP.pdf}
 }
