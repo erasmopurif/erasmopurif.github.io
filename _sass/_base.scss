@@ -21,6 +21,15 @@ table {
     }
 }
 
+// Social icon svg
+svg {
+  color: var(--global-text-color);
+  transition-property: all 0.2s ease-in-out;
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -472,6 +481,7 @@ blockquote {
   text-align: center;
   .contact-icons {
     font-size: 4rem;
+    
     a {
       i::before {
         color: var(--global-text-color);
