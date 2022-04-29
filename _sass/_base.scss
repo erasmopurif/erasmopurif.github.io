@@ -55,9 +55,9 @@ blockquote {
   padding-left: 10px;
   padding-right: 15px;
   // padding-bottom: 0;
-  font-family: "Candara", sans-serif;
-  font-size: medium;
-  font-weight: 400;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 380;
 
   .quote-italic {
     color: var(--global-theme-color);
@@ -282,10 +282,6 @@ blockquote {
 
 @media screen and (max-width: 639px) {
 
-  blockquote {
-    font-size: 13pt;
-  }
-
   .card {
 
     .general-info {
@@ -351,7 +347,7 @@ blockquote {
 
 .affiliations {
   font-family: "Roboto Slab", "Times New Roman", serif;
-  font-size: small;
+  font-size: smaller;
   padding-bottom: 25px;
 }
 
