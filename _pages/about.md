@@ -24,4 +24,4 @@ Before I joined OVGU and GEI, I worked for three as an IT Consultant at [Blue Re
 Previously, I received my Bachelor and Master degree in Computer Engineering at [University of Naples](http://www.unina.it/en_GB/home) and a 2<sup>nd</sup> level Master degree in Artificial Intelligence at [University of Turin](https://en.unito.it/).
 
 > I'm a technology enthusiast and a great football passionate.\
-> My life is marked by Muhammad Ali’s quote *"<span class="quote-italic">Impossible is nothing</span>"*.
+> My life is marked by Muhammad Ali’s quote *<span class="quote-italic">"Impossible is nothing"</span>*.

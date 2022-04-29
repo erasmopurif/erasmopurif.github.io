@@ -55,7 +55,7 @@ blockquote {
   padding-left: 10px;
   padding-right: 15px;
   // padding-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Candara", sans-serif;
   font-size: medium;
   font-weight: 400;
 
@@ -283,7 +283,7 @@ blockquote {
 @media screen and (max-width: 639px) {
 
   blockquote {
-    font-size: 11pt;
+    font-size: 13pt;
   }
 
   .card {
@@ -366,12 +366,12 @@ blockquote {
   width: 100%;
 
   .address {
-    margin-bottom: 10px;
     margin-top: 3px;
     font-family: monospace;
     p {
+      width: 100%;
+      padding-bottom: 20px;
       display: inline-block;
-      margin: 0;
       text-align: center;
     }
   }
