@@ -64,6 +64,29 @@ blockquote {
   }
 }
 
+.badge {
+  background-color: var(--global-theme-color);
+  width: 85px;
+}
+
+.news {
+
+  .news-text {
+    text-align: justify;
+  }
+
+  .row {
+    padding-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .news-title {
+    padding-left: 1rem;
+  }
+
+}
+
 // Math
 
 .equation {
