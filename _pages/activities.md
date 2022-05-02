@@ -4,9 +4,12 @@ title: activities
 nav: true
 dropdown: true
 children: 
-    - title: teaching
-      permalink: /teaching/
+    - title: chairing and committees
+      permalink: /chairing_committees/
     - title: divider
     - title: mentorship
       permalink: /mentorship/
+    - title: divider
+    - title: teaching
+      permalink: /teaching/
 ---
