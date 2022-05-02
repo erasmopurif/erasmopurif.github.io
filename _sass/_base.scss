@@ -21,6 +21,10 @@ table {
     }
 }
 
+.justify {
+  text-align: justify;
+}
+
 // Social icon svg
 svg {
   color: var(--global-text-color);
@@ -128,6 +132,14 @@ blockquote {
 
   .subtitle {
     font-weight: 500;
+  }
+
+  li {
+    text-align: justify;
+  }
+
+  .list-left {
+    padding-left: 0;
   }
 
   .links {
