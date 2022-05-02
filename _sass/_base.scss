@@ -111,6 +111,10 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+
+  .pdf-thesis {
+    margin-left: 15px;
+  }
   
   img {
     width: 100%;
@@ -276,6 +280,7 @@ blockquote {
       color: transparent;
       height: 10px;
     }
+
   }
 
   .no-checked {
