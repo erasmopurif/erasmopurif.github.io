@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Systems and applications developed over the years.
 nav: true
-display_categories: [work, fun]
+display_categories: [PhD, Work, University]
 horizontal: false
 ---
 
