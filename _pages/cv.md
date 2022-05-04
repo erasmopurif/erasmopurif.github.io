@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: cv
+title: CV
 description: Curriculum vitae
 permalink: /cv/
 areas: [general_info]

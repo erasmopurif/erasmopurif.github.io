@@ -1,15 +1,15 @@
 ---
 layout: page
-title: activities
+title: Activities
 nav: true
 dropdown: true
 children: 
-    - title: chairing and committees
+    - title: Chairing and Committees
       permalink: /chairing_committees/
     - title: divider
-    - title: mentorship
+    - title: Mentorship
       permalink: /mentorship/
     - title: divider
-    - title: teaching
+    - title: Teaching
       permalink: /teaching/
 ---

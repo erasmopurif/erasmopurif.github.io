@@ -1,6 +1,6 @@
 ---
 layout: page
-title: chairing and committees
+title: Chairing and Committees
 permalink: /chairing_committees/
 description: Events chaired and participation in program committees
 nav: false

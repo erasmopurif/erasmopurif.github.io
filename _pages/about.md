@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 affiliations: ['<a href="https://www.ovgu.de/en/" target="_blank">Otto von Guericke University Magdeburg</a>. Universitätsplatz 2, 39106 Magdeburg, Germany', '<a href="http://www.gei.de/en/home.html" target="_blank">Leibniz Institute for Educational Media | Georg Eckert Institute</a>. Freisestraße 1, 38118 Brunswick, Germany']
 

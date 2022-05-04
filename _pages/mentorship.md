@@ -1,6 +1,6 @@
 ---
 layout: page
-title: mentorship
+title: Mentorship
 permalink: /mentorship/
 description: 
 nav: false
