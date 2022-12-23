@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Systems and applications developed over the years and other projects I worked on.
 nav: true
-display_categories: [Ph.D., Work, University]
+display_categories: [Ph.D., Personal, Work, University]
 horizontal: false
 ---
 
