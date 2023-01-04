@@ -11,5 +11,6 @@ nav: false
 
     {% include chairing.html %}
     {% include committees.html %}
+    {% include rev_journals.html %}
 
 </div>
