@@ -1,11 +1,11 @@
 ---
 layout: page
-cover-title: Ph.D. project
-cover-description: Beyond-Accuracy Perspectives on Graph Neural Network-Based Models for Behavioural User Profiling
+cover-title: DC @ UMAP'22
+cover-description: Beyond-Accuracy Perspectives on GNN-Based Models for Behavioural User Profiling
 title: Beyond-Accuracy Perspectives on Graph Neural Network-Based Models for Behavioural User Profiling
-description: Ph.D. project
+description: Doctoral Consortium @ UMAP'22 (July 5, 2022, Barcelona, Spain)
 img: assets/img/phd_project/cover.jpg
-importance: 1
+importance: 2
 category: Ph.D.
 ---
 
