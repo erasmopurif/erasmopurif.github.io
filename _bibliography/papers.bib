@@ -1,5 +1,57 @@
 ---
 ---
+@inproceedings{abdelrazek2023fairup,
+  author = {Abdelrazek, Mohamed and Purificato, Erasmo and Boratto, Ludovico and De Luca, Ernesto William},
+  title = {FairUP: A Framework for Fairness Analysis of Graph Neural Network-Based User Profiling Models},
+  year = {2023},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3539618.3591814},
+  doi = {10.1145/3539618.3591814},
+  abstract = {Modern user profiling approaches capture different forms of interactions with the data, from user-item to user-user relationships. Graph Neural Networks (GNNs) have become a natural way to model these behaviours and build efficient and effective user profiles. However, each GNN-based user profiling approach has its own way of processing information, thus creating heterogeneity that does not favour the benchmarking of these techniques. To overcome this issue, we present FairUP, a framework that standardises the input needed to run three state-of-the-art GNN-based models for user profiling tasks. Moreover, given the importance that algorithmic fairness is getting in the evaluation of machine learning systems, FairUP includes two additional components to (1) analyse pre-processing and post-processing fairness and (2) mitigate the potential presence of unfairness in the original datasets through three pre-processing debiasing techniques. The framework, while extensible in multiple directions, in its first version, allows the user to conduct experiments on four real-world datasets. The source code is available at https://link.erasmopurif.com/FairUP-source-code, and the web application is available at https://link.erasmopurif.com/FairUP.},
+  booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages = {3165--3169},
+  numpages = {5},
+  keywords = {algorithmic fairness, graph neural networks, user profiling},
+  location = {Taipei, Taiwan},
+  series = {SIGIR '23},
+  abbr = {SIGIR},
+  bibtex_show = {true},
+  pdf={publications/2023_SIGIR.pdf}
+}
+
+@inproceedings{purificato2023usability,
+  title={Usability Studies in Times of Pandemic: Different Solutions for the Remote Usability Tests of Research Digital Tools},
+  author={Purificato, Erasmo and Wehnert, Sabine and De Luca, Ernesto William},
+  booktitle={International Conference on Human-Computer Interaction,},
+  pages={666--673},
+  year={2023},
+  organization={Springer},
+  url={https://doi.org/10.1007/978-3-031-35989-7_85},
+  doi={10.1007/978-3-031-35989-7_85},
+  abstract={In this paper, we present the usability evaluation of three digital tools of the Leibniz Institute for Educational Media | Georg Eckert Institute, namely Curricula Workstation, GEI-Digital and International TextbookCat, compared with a Meta Search Engine (MSE) search.gei.de which shall replace the use of the individual tools. Due to the lockdown measures enforced by the German government at the end of 2021, we developed different solutions to adapt our usability test plans to remote settings. First, the MSE was compared with Curricula Workstation using recordings performed via Zoom. Second, we compared the MSE with GEI-Digital by leveraging mouse tracking data using a combination of Zoom with OBS Studio for recording the screen. Third, a comparison was made between International TextBookCat and the MSE with data collected via CamStudio. The experimental results showed that the individual tools are perceived as better than MSE mainly in terms of intuitive design and ease of learning, while MSE is more satisfying for users.},
+  abbr={HCII},
+  location={Copenhagen, Denmark},
+  bibtex_show={true},
+  pdf={publications/2023_HCII.pdf}
+}
+
+@inproceedings{wehnert2023usability,
+  title={A Usability Study of a Research Institute Website with Eye-Tracking Devices},
+  author={Wehnert, Sabine and Purificato, Erasmo and De Luca, Ernesto William},
+  booktitle={International Conference on Human-Computer Interaction,},
+  pages={702--711},
+  year={2023},
+  organization={Springer},
+  url={https://doi.org/10.1007/978-3-031-35989-7_90},
+  doi={10.1007/978-3-031-35989-7_90},
+  abstract={In this paper, we present the results of our study conducted at the Leibniz Institute for Educational Media | Georg Eckert Institute to assess the usability of the institute's website before the re-design of the same and the subsequent development of the new version. In particular, four specific pages are evaluated, i.e. Home, Institute, Departments and Publications. The aim of the presented usability studies is to uncover positive and negative usability findings in order to properly plan the potential corrective actions for the upcoming restyling. The experimental outcomes are displayed in form of aggregated heat maps and mainly focus on the ease of use of the different analysed sections.},
+  abbr={HCII},
+  location={Copenhagen, Denmark},
+  bibtex_show={true},
+  pdf={publications/2023_HCII_2.pdf}
+}
+
 @inproceedings{purificato2023tutorialumap,
 author = {Purificato, Erasmo and Boratto, Ludovico and De Luca, Ernesto William},
 title = {Tutorial on User Profiling with Graph Neural Networks and Related Beyond-Accuracy Perspectives},
@@ -9,7 +61,7 @@ address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3565472.3595616},
 doi = {10.1145/3565472.3595616},
 abstract = {The proposed tutorial aims to introduce the UMAP community to modern user profiling approaches leveraging graph neural networks (GNNs). We will begin by discussing the conceptual foundations of user profiling and GNNs and providing a literature review of the two topics. We will then present a systematic overview of the state-of-the-art GNN architectures designed for user profiling, including the types of data that are typically used for this purpose. We will also discuss ethical considerations and beyond-accuracy perspectives (i.e. fairness and explainability), which can arise within the potential applications of adopting GNNs for user profiling. In the practical session of the tutorial, attendees will have the opportunity to understand concretely how recent GNN models for user profiling are built and trained with open-source tools and publicly available datasets. The audience will also be engaged in investigating the impact of the presented models on case studies involving bias detection and mitigation, as well as user profiles explanations. The tutorial will end with an analysis of existing and emerging open challenges in the field and their future research directions.},
-booktitle = {Proceedings of the 31st ACM Conference on User Modeling, Adaptation and Personalization},
+booktitle = {Proceedings of the 31st ACM Conference on User Modeling, Adaptation and Personalization,},
 abbr = {UMAP},
 pages = {309-312},
 numpages = {4},
@@ -21,16 +73,17 @@ slides = {https://www.slideshare.net/ErasmoPurificato2/tutorial-on-user-profilin
 pdf = {publications/2023_UMAP.pdf}
 }
 
-@inproceedings{purificato2023bias,
-  title={What are we missing in Algorithmic Fairness? Discussing Open Challenges for Fairness Analysis in User Profiling with Graph Neural Networks},
+@inproceedings{purificato2023what,
+  title={What Are We Missing in Algorithmic Fairness? Discussing Open Challenges for Fairness Analysis in User Profiling with Graph Neural Networks},
   author={Purificato, Erasmo and De Luca, Ernesto William},
+  booktitle={International Workshop on Algorithmic Bias in Search and Recommendation},
   abstract={Due to the rising importance of human-centred perspectives in artificial intelligence and all related fields, algorithmic fairness is currently a key topic when dealing with research on novel machine learning models and applications. However, in most cases, in the context of fairness analysis, we are commonly facing situations in which the fairness metrics are applied only in binary classification scenarios, and the capability of a model to produce fair results is evaluated considering the absolute difference of the scores of the two sensitive groups considered. In this paper, we aim to discuss these two open challenges and illustrate our position from an ethical perspective. To support our arguments, we present a case study on two recent scientific contributions exploiting Graph Neural Networks models for user profiling, which are considered state-of-the-art technologies in many domains. With the presented work, our goal is also to create a valuable debate in the community about the raised questions.},
-  booktitle={Proceedings of the Fourth International Workshop on Algorithmic Bias in Search and Recommendation (Bias 2023),},
   abbr={BIAS},
+  pages={169--175},
   year={2023},
   organization={Springer},
   bibtex_show={true},
-  pdf={publications/2023_BIAS_WATERMARK.pdf}
+  pdf={publications/2023_BIAS.pdf}
 }
 
 @inproceedings{purificato2023facade,
