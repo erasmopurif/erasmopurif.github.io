@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-affiliations: ['<a href="https://www.ovgu.de/en/" target="_blank">Otto von Guericke University Magdeburg</a>. Universitätsplatz 2, 39106 Magdeburg, Germany', '<a href="http://www.gei.de/en/home.html" target="_blank">Leibniz Institute for Educational Media | Georg Eckert Institute</a>. Freisestraße 1, 38118 Brunswick, Germany']
+affiliations: ['<a href="https://algorithmic-transparency.ec.europa.eu/index_en" target="_blank">European Centre for Algorithmic Transparency</a>, Joint Research Centre, European Commission, Ispra, Italy']
 
 
 profile:
   align: right
   image: propic_erasmo_v2.jpg
   address: >
-    <p>Based in Magdeburg <img class="flag" src="/assets/img/GER_flag.svg"></img></p>
+    <p>Based in <a href="https://www.google.com/maps/place/21027+Ispra,+VA/@45.8111958,8.5703034,13z/data=!3m1!4b1!4m6!3m5!1s0x4786773115284899:0x7008507ddb2ad0f3!8m2!3d45.8140286!4d8.6120256!16zL20vMGIxMWY1?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Ispra</a> <img class="flag" src="/assets/img/ITA_flag.svg"></img></p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
