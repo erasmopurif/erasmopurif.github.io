@@ -17,7 +17,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 I am a Scientific Project Officer at the [European Centre for Algorithmic Transparency](https://algorithmic-transparency.ec.europa.eu/index_en) (ECAT) of the **European Commission**'s [Joint Research Centre](https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/joint-research-centre_en) (JRC).
 
-I work at the intersection between scientific research and policy-making, with a specific focus on [Human Behaviour and Machine Intelligence](https://ai-watch.ec.europa.eu/humaint_en) (HUMAINT).
+I work at the intersection between scientific research and policy-making, with a specific focus on Human Behaviour and Machine Intelligence ([HUMAINT](https://ai-watch.ec.europa.eu/humaint_en)).
 On the research side, I carry out studies in the area of trustworthy algorithmic systems, e.g. defining methodologies for ensuring fairness, transparency, human oversight and social well-being and analysing their impact on fundamental rights, the related societal risks and potential mitigation measures.
 On the policy side, I support the enforcement of the **AI Act** and the **Digital Services Acts**, collaborating with policy units, high-level experts and academic institutions.
 
