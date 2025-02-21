@@ -19,7 +19,7 @@ I am a Scientific Project Officer at the [European Centre for Algorithmic Transp
 
 I work at the intersection between scientific research and policy-making, with a specific focus on Human Behaviour and Machine Intelligence ([HUMAINT](https://ai-watch.ec.europa.eu/humaint_en)).
 On the research side, I carry out studies in the area of trustworthy algorithmic systems, e.g. defining methodologies for ensuring fairness, transparency, human oversight and social well-being and analysing their impact on fundamental rights, the related societal risks and potential mitigation measures.
-On the policy side, I support the enforcement of the **AI Act** and the **Digital Services Acts**, collaborating with policy units, high-level experts and academic institutions.
+On the policy side, I support the enforcement of the **AI Act** and the **Digital Services Act**, collaborating with policy units, high-level experts and academic institutions.
 
 I am also a Ph.D. candidate at the [Faculty of Computer Science](https://www.inf.ovgu.de/en/) of the [Otto von Guericke University Magdeburg](https://www.ovgu.de/en/) (OVGU), working with [Prof. Dr.-Ing. Ernesto W. De Luca](http://www.gei.de/en/mitarbeiter/prof-dr-ing-ernesto-william-de-luca.html) in the [Human-Centred Artificial Intelligence](https://hcai.ovgu.de/) research group.
 Starting from the analysis of the fairness capabilities of state-of-the-art **Graph Neural Networks for behavioural user modeling**, my doctoral research focuses on proposing innovative approaches for **bias detection** and **mitigation** in **multiclass and multigroup scenarios**, by also providing ways for monitoring the results via novel **explainable user interfaces**.
