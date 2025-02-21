@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Erasmo  Purificato | Multimedia and geographic data integration for cultural heritage information retrieval</title>
+    <meta name="author" content="Erasmo  Purificato" />
+    <meta name="description" content="Master Thesis project" />
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@/css/all.min.css" integrity="" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    <script src="https://kit.fontawesome.com/5b4f914426.js" crossorigin="anonymous"></script>
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.png"/>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://erasmopurif.com/projects/master_thesis_project/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://erasmopurif.com/"><span class="font-weight-bold">Erasmo</span>   Purificato</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Activities</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/chairing_committees/">Chairing and Committees</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/mentorship/">Mentorship</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/teaching/">Teaching</a>
+                </div>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">CV</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">Projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- page.html -->
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Multimedia and geographic data integration for cultural heritage information retrieval</h1>
+    <p class="post-description">Master Thesis project</p>
+  </header>
+
+  <article>
+    <p>In the thesis project, I developed a system providing the integration between <em>Content-Based Image Retrieval</em> (CBIR) and <em>Geographic Information Retrieval</em> (GIR).
+My work aimed to prove that the use of geographic data can improve the results obtained by an <em>image matching</em> system based only on multimedia/visual data.</p>
+
+<p>This work is part of a wide project about cultural heritage, in which a mobile application that helps users to retrieve information about artworks and museums has been developed. The logic architecture is shown in the figure below where the highlighted components represent the area I implemented.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/logic_architecture-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/logic_architecture-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/logic_architecture-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/logic_architecture.jpg" title="logic architecture">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    System architecture
+</div>
+
+<h2 class="title mt-4 p-0 text-left">Functionalities implemented</h2>
+
+<p>The system is composed by three functionalities:</p>
+<ul>
+  <li>
+<strong>Multimedia Query</strong>: the principal aim of <em>Content-Based Image Retrieval</em> is to develop techniques for retrieving images on the basis of automatically-derived features; for this motivation, this functionality provides to:
+    <ol>
+      <li>Extract multimedia/visual features from an image previously loaded;</li>
+      <li>Perform a search by the features vector obtained as result of the extraction.</li>
+    </ol>
+  </li>
+  <li>
+<strong>Geographic Query</strong>: it consists in a <em>points of interest</em> (POI) search and, considering that this is a system about cultural heritage, a point of interest can be represented by a museum, a church, an art gallery. In particular, for this functionality, I chose <em>museums</em> as POIs. To perform this type of search, a radius has to be set to deﬁne the circle in which the museums can be retrieved.</li>
+  <li>
+<strong>Multimedia&amp;Geographic Query</strong>: the idea of combining geographic data with multimedia data comes from observation of <em>Multimedia Query</em> results. Most of the artworks submitted to the system were retrieved as second, third or fourth result, and I noted that, in the position of the ranking that preceded them, there were always (or almost) artworks sited in different places than the considered ones. So, I decided to try to improve the image retrieval, more precisely the <em>image matching</em>, developing a functionality based on the geolocation of the user who perform the retrieval query, that would filter the results of a standard <em>Multimedia Query</em>. Obviously, <em>filtering</em> is possible only if the user geographic position is available at <em>real-time</em>, thus this is a function oriented to <em>mobile devices</em>.</li>
+</ul>
+
+<p>The <strong><em>Multimedia&amp;Geographic Query</em></strong> is the core functionality and consists of the following steps:</p>
+<ol>
+  <li>The first steps are equals to <em>Multimedia Query</em> and have the same purpose;</li>
+  <li>A <em>Geographic Query</em> is performed to match the artwork location, based on the user geographic position, with the corresponding POI geolocation, in order to discover the place in which the user, and thus the artwork, is located;</li>
+  <li>The result of the previous query is used to find all the artworks in that place;</li>
+  <li>List of artworks is used in order to filter the multimedia results and obtain better response values.</li>
+</ol>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/multimedia_geographic_query-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/multimedia_geographic_query-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/multimedia_geographic_query-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/multimedia_geographic_query.jpg" title="multimedia geographic query">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Activity diagram - Multimedia&amp;Geographic Query
+</div>
+
+<h2 class="title mt-4 p-0 text-left">Technological architecture</h2>
+
+<p>The following image displays the technologies used to implement the functionalities previously illustrated. The hidden parts represent technologies employed by other component of the entire cultural heritage system and not used in this work.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/tech_architecture-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/tech_architecture-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/tech_architecture-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/tech_architecture.jpg" title="technological architecture">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Technological architecture of the system
+</div>
+
+<p>Main tools employed:</p>
+<ul>
+  <li><a href="https://solr.apache.org/" target="_blank" rel="noopener noreferrer">Apache Solr</a></li>
+  <li><a href="https://lucene.apache.org/" target="_blank" rel="noopener noreferrer">Apache Lucene</a></li>
+  <li><a href="http://www.lire-project.net/" target="_blank" rel="noopener noreferrer">LIRe: Lucene Image Retrieval</a></li>
+  <li><a href="https://neo4j.com/" target="_blank" rel="noopener noreferrer">Neo4j</a></li>
+</ul>
+
+<h2 class="title mt-4 p-0 text-left">Application design</h2>
+
+<p>The described system has been designed with a <em>client-server</em> architecture.</p>
+
+<p>The <em>client-side</em> application allows users to:</p>
+<ul>
+  <li>Upload an image from device gallery to retrieve information about the represented artwork;</li>
+  <li>Take a picture of an artwork in a <em>POI</em> to retrieve information about it. The user can enable his position given by GPS sensor to improve the information retrieval;</li>
+  <li>Discover the location of the museums closest to him.</li>
+</ul>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/activity_diagram_client-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/activity_diagram_client-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/activity_diagram_client-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/activity_diagram_client.jpg" title="activity diagram client">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Activity diagram - Client
+</div>
+
+<p>The <em>server-side</em> system is able to:</p>
+<ul>
+  <li>Receive and manage data sent by client application to call the right method, based on data types received in the request;</li>
+  <li>Establish the connection with the <code class="language-plaintext highlighter-rouge">SolrClient</code>;</li>
+  <li>Perform the necessary <code class="language-plaintext highlighter-rouge">SolrQuery</code>;</li>
+  <li>Get results as <code class="language-plaintext highlighter-rouge">SolrDocument</code>;</li>
+  <li>Send the response to client.</li>
+</ul>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-11 mt-3 mt-md-0" style="display: block; margin-left: auto; margin-right: auto;">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/activity_diagram_server-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/activity_diagram_server-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/activity_diagram_server-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/activity_diagram_server.jpg" title="activity diagram server">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Activity diagram - Server
+</div>
+
+<h2 class="title mt-4 p-0 text-left">Dataset</h2>
+
+<p>I considered a selection of paintings and sculptures from six museums of Naples:</p>
+<ul>
+  <li><a href="https://capodimonte.cultura.gov.it/" target="_blank" rel="noopener noreferrer">Museo Nazionale di Capodimonte</a></li>
+  <li><a href="https://www.gallerieditalia.com/it/napoli/" target="_blank" rel="noopener noreferrer">Gallerie di Palazzo Zevallos Stigliano</a></li>
+  <li><a href="https://www.beniculturali.it/luogo/certosa-e-museo-di-san-martino" target="_blank" rel="noopener noreferrer">Museo Nazionale di San Martino</a></li>
+  <li><a href="https://www.museosansevero.it/cappella-sansevero/" target="_blank" rel="noopener noreferrer">Museo Cappella Sansevero</a></li>
+  <li><a href="https://mann-napoli.it/" target="_blank" rel="noopener noreferrer">Museo Archeologico Nazionale di Napoli</a></li>
+  <li><a href="https://www.museionline.info/musei/museo-civico-di-castel-nuovo" target="_blank" rel="noopener noreferrer">Museo Civico di Castel Nuovo</a></li>
+</ul>
+
+<h2 class="title mt-4 p-0 text-left">Features evaluation</h2>
+
+<p>A subset of <em>global</em> and <em>local</em> features proposed in literature have been proposed and tested to analyse their performances to select the best for the final system implementation:</p>
+<ul>
+  <li>Pyramid of Histograms of Orientation Gradients (PHOG)</li>
+  <li>Auto Color Correlogram</li>
+  <li>MPEG-7 Scalable Color Descriptor</li>
+  <li>MPEG-7 Color Layout Descriptor</li>
+  <li>MPEG-7 Edge Histogram Descriptor</li>
+  <li>Fuzzy Color and Texture Histogram (FCTH)</li>
+  <li>Color and Edge Directivity Descriptor (CEDD)</li>
+  <li>Joint Composite Descriptor (JCD)</li>
+  <li>Scale Invariant Feature Transform (SIFT)</li>
+</ul>
+
+<p>For each feature, I extracted the value of every image in the dataset and evaluated the <em>exact match</em> between resulting and actual artwork. Results showed PHOG as the most performing feature and this descriptor has been used for the development of the mobile application.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/evaluation_features-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/evaluation_features-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/evaluation_features-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/evaluation_features.jpg" title="evaluation features">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Evaluation features - Exact matching test
+</div>
+
+<h2 class="title mt-4 p-0 text-left">System evaluation</h2>
+
+<p>The system has been evaluated <em>“on the field”</em> in the three museums that granted the availability for testing:</p>
+<ul>
+  <li><a href="https://capodimonte.cultura.gov.it/" target="_blank" rel="noopener noreferrer">Museo Nazionale di Capodimonte</a></li>
+  <li><a href="https://www.gallerieditalia.com/it/napoli/" target="_blank" rel="noopener noreferrer">Gallerie di Palazzo Zevallos Stigliano</a></li>
+  <li><a href="https://www.beniculturali.it/luogo/certosa-e-museo-di-san-martino" target="_blank" rel="noopener noreferrer">Museo Nazionale di San Martino</a></li>
+</ul>
+
+<p>For each artwork in the dataset and located in those places, both <em>Multimedia Query</em> and <em>Multimedia&amp;Geographic Query</em> functionalities have been evaluated.
+The results are displayed below and they show a visible and quantifiable improvement in the integration of geographic and multimedia data, with a positive difference of <strong>32.65%</strong>.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/global_evaluation-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/global_evaluation-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/global_evaluation-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/global_evaluation.jpg" title="system evaluation">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    System evalution
+</div>
+
+<h2 class="title mt-4 p-0 text-left">Android application</h2>
+
+<p>The mobile application implements the three available tasks of the client-side described above:</p>
+<ul>
+  <li>
+<strong>Upload an image</strong>: image loaded from the device gallery;</li>
+  <li>
+<strong>Capture an artwork</strong>: picture taken by camera and optionally results improved by GPS location;</li>
+  <li>
+<strong>Find museums</strong>: discover the location of the closest museums.</li>
+</ul>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/upload1-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/upload1-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/upload1-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/upload1.jpg" title="android upload1">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/upload2-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/upload2-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/upload2-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/upload2.jpg" title="android upload2">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/upload3-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/upload3-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/upload3-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/upload3.jpg" title="android upload3">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Android application - <i>Upload an image</i>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/camera1-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/camera1-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/camera1-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/camera1.jpg" title="android camera1">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/camera2-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/camera2-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/camera2-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/camera2.jpg" title="android camera2">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/camera3-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/camera3-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/camera3-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/camera3.jpg" title="android camera3">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Android application - <i>Capture an artwork</i>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/location1-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/location1-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/location1-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/location1.jpg" title="android location1">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/location2-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/location2-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/location2-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/location2.jpg" title="android location2">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/master_thesis_project/location3-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/master_thesis_project/location3-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/master_thesis_project/location3-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/master_thesis_project/location3.jpg" title="android location3">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Android application - <i>Find museums</i>
+</div>
+
+<h2 class="title mt-4 p-0 text-left">References</h2>
+
+<p>This work has been published in two papers:</p>
+<ul>
+  <li>
+<strong>Purificato, Erasmo</strong>, and Antonio M. Rinaldi. <em>Multimedia and geographic data integration for cultural heritage information retrieval</em>. Multimedia Tools and Applications 77.20 (2018): 27447-27469.</li>
+</ul>
+<div class="links" style="margin-top: -15px; margin-left: 35px">
+    <a href="https://dl.acm.org/doi/10.1007/s11042-018-5931-7" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">link</a>
+    <a href="assets/pdf/publications/2018_MTAP.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+</div>
+
+<ul>
+  <li>
+<strong>Purificato, Erasmo</strong>, and Antonio M. Rinaldi. <em>A multimodal approach for cultural heritage information retrieval</em>. International Conference on Computational Science and Its Applications. Springer, Cham, 2018.</li>
+</ul>
+<div class="links" style="margin-top: -15px; margin-left: 35px">
+    <a href="https://link.springer.com/chapter/10.1007/978-3-319-95162-1_15" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">link</a>
+    <a href="assets/pdf/publications/2018_ICCSA.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0" style="text-align: center;">
+        © Copyright 2025 Erasmo  Purificato. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+  </body>
+</html>
+
