@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Erasmo  Purificato | blog</title>
+    <title>Erasmo  Purificato | Goalkeeper Analysis - Serie A 2021/22</title>
     <meta name="author" content="Erasmo  Purificato" />
-    <meta name="description" content="Personal Website
-" />
+    <meta name="description" content="Football Data Analysis project" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -34,7 +33,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.png"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://erasmopurif.com/blog/">
+    <link rel="canonical" href="https://erasmopurif.com/projects/gk_analysis/">
     
     <!-- Dark Mode -->
     
@@ -109,19 +108,144 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+<div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Goalkeeper Analysis - Serie A 2021/22</h1>
+    <p class="post-description">Football Data Analysis project</p>
+  </header>
 
+  <article>
+    <p>With this application, you can analyse the <strong>stats</strong> and <strong>performance</strong> of all the goalkeepers who played in the Serie A teams during the season 2021/22.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<p><img class="emoji" title=":warning:" alt=":warning:" src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png" height="20" width="20"> <strong><em>Important information</em></strong></p>
+<ul>
+  <li><em>The analysis considers only goalkeepers with at least <strong>800 minutes</strong> played.</em></li>
+  <li>
+<em>The visualisation of all charts has been optimised for a laptop screen of 15”</em>.</li>
+</ul>
 
-  
+<h2 id="links">Links</h2>
+
+<p><i class="fa-solid fa-globe"></i> <a href="https://gk-analysis-serie-a-21-22.streamlit.app/" target="_blank" rel="noopener noreferrer">WebApp</a></p>
+
+<p><i class="fa-brands fa-github"></i> <a href="https://github.com/erasmopurif/gk-analysis-serie-a-21-22" target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
+
+<h2 id="data-sources">Data sources</h2>
+<p>The data used in this work are taken from various sources:</p>
+<ul>
+  <li>
+<a href="https://www.transfermarkt.com/" target="_blank" rel="noopener noreferrer">Transfermarkt</a>: personal information and profile picture;</li>
+  <li>
+<a href="https://www.sics.it/" target="_blank" rel="noopener noreferrer">SICS</a> &amp; <a href="https://soccerment.com/" target="_blank" rel="noopener noreferrer">Soccerment</a>: event data and advanced metrics (datasets provided during the 2nd Course on <a href="https://www.sics.it/corso-football-data-intelligence/" target="_blank" rel="noopener noreferrer">Football Data Intelligence</a>).</li>
+</ul>
+
+<h2 id="analysis">Analysis</h2>
+<p>The information that are provided through the application for analysing a goalkeeper are listed below.</p>
+
+<p>When needed, specific description is provided within the analysis page.</p>
+
+<h3 id="personal-information-and-basic-statistics">Personal information and basic statistics</h3>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/gk_analysis/basic_info-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/gk_analysis/basic_info-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/gk_analysis/basic_info-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/gk_analysis/basic_info.jpg" title="ui_basic_info">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h3 id="specific-goalkeeper-metrics">Specific goalkeeper metrics</h3>
+<p>Percentile rank vs all Serie A goalkeepers and individual scores.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/gk_analysis/gk_metrics-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/gk_analysis/gk_metrics-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/gk_analysis/gk_metrics-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/gk_analysis/gk_metrics.jpg" title="ui_gk_metrics">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h3 id="goals-conceded-map">Goals conceded map</h3>
+<p>The heatmap displays the distribution of the goals conceded by the goalkeeper during the season, considering the point where the scorers made the shots.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/gk_analysis/goals_map-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/gk_analysis/goals_map-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/gk_analysis/goals_map-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/gk_analysis/goals_map.jpg" title="ui_goals_map">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h3 id="goal-kicks-map">Goal kicks map</h3>
+<p>The heatmap displays the distribution of the goal kicks carried out by the goalkeeper during the season, considering the end-point of the pass.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/gk_analysis/goal_kick_map-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/gk_analysis/goal_kick_map-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/gk_analysis/goal_kick_map-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/gk_analysis/goal_kick_map.jpg" title="ui_goal_kick_map">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h3 id="passes-distribution-no-goal-kicks-per-match-and-average-position-in-pass-plays">Passes distribution (<em>no goal kicks</em>) per match and average position in pass plays</h3>
+<p>For each selected matchday, on the left hand side, the chart displays the distribution of passes (no goal kicks) made by the goalkeeper. On the opposite side of the chart, the :blue[blue] line (and related point in the pitch) represents the average position of the goalkeeper in the pass plays during the selected match, while the :green[green] line represents the average position of the goalkeeper in the pass plays during the entire season.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/gk_analysis/passes_avg_pos-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/gk_analysis/passes_avg_pos-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/gk_analysis/passes_avg_pos-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/gk_analysis/passes_avg_pos.jpg" title="ui_passes_avg_pos">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+  </article>
 
 </div>
 
